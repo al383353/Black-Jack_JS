@@ -7,7 +7,7 @@ var deck=[[1,"AH"],[2,"2H"],[3,"3H"],[4,"4H"],[5,"5H"],[6,"6H"],[7,"7H"],[8,"8H"
 var shuffled_deck=[], user=[], compArray=[], playedCards=[], Honey=[];
 var x, temp, randomIndex, sumP=0, optionVar,compSum=0,playerSum=0, flag=0;
 
-//Returns the shuffled array
+//Returns the shuffled array list
 function shuffle(deck){ 
 	var n=deck.length;
 	for(var i=n;i>0;i--){
